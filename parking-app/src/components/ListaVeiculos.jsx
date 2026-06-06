@@ -1,7 +1,7 @@
 export default function ListaVeiculos() {
   return (
     <div className="bg-white p-6 rounded-lg shadow">
-      <h2 className="text-lg font-semibold mb-4">
+      <h2 className="text-lg font-semibold mb-4 !text-black">
         Veículos Estacionados
       </h2>
 
@@ -20,7 +20,7 @@ export default function ListaVeiculos() {
             <td>10:30</td>
             <td>120 min</td>
             <td>
-              <button className="text-blue-600 hover:underline">
+              <button className="text-blue-600 hover:underline cursor-pointer">
                 Comprovante
               </button>
             </td>
